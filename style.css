@@ -109,7 +109,7 @@ nav a:hover .brand {
 .hero {
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient( rgba(88, 77, 68, 0.603)), url(images/Sun-linen.jpg);
+    background-image:linear-gradient( rgba(88, 77, 68, 0.603)), url(Sun-linen.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
