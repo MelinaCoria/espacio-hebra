@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<!------Lato Font----->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+<!---Alice font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+
+<body>
+  <!--------------------Hero main page-------------------->
+<section class= "hero"> <!--section 1-->
+
+  <img src="images/espacio_logo.png" class="hero-logo">
+
+<div class="text-box">
+    <p>Aprendé técnicas modernas y tradicionales en un espacio creativo</p>
+    <a href="#reserva" class="hero-btn">Reservá tu clase</a>
+</div>
+
+<!---------------------header-menu-nav bar--------------->
+<nav class="nav-wrapper">
+  <div class="nav-pill">
+    <a href="index.html"><h1 class="brand">espacio Hebra</h1></a>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    <div class="nav-links" id="navLinks">
+      <!-- links here -->
+    </div>
+
+                     <!---menu titles-->
+  <div class="nav-links" id="navLinks">
+  <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+      <li><a href="#eventos">PROXIMOS EVENTOS</a></li>
+      <li><a href="">CLASES</a></li>
+      <li><a href="">FAQ</a></li>
+      <li><a href="">QUIENES SOMOS</a></li>
+    </ul>
+  </div>
+</nav>
+</section> <!---end of section 1--->
+
+<!------------------banner----------------->
+<div class="moving-banner">
+  <div class="banner-track">
+    ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS 
+    ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS 
+    ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS 
+    ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS 
+    ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦ PRÓXIMOS EVENTOS ✦
+  </div>
+</div>
+
+<!-------2nd section - proximos eventos-------->
+
+<section class="PROXIMOS-EVENTOS" id="eventos">
+  <div class="event-container">
+
+    <h1>PRÓXIMOS EVENTOS</h1>
+
+    <div class="event-grid">
+
+      <div class="event-card card-left">
+        <img src="images/clase1.jpg" alt="">
+        <h3>Taller de bordado</h3>
+        <p>Abril, Sábado 18</p>
+        <a href="#" class="info-link">+ info</a>
+      </div>
+  
+
+      <div class="event-card card-center">
+        <img src="images/clase2.jpg" alt="">
+        <h3>Taller de bordado: Recreando grandes artistas</h3>
+        <p>Mayo, Sábado 23</p>
+        <a href="#" class="info-link">+ info</a>
+      </div>
+
+      <div class="event-card card-right">
+        <img src="images/clase3.jpg" alt="">
+        <h3>Encuentros mensuales: cupos limitados</h3>
+        <p>Segundo Sábado de cada mes</p> 
+        <a href="#" class="info-link">+ info</a>
+      </div>
+    </div>
+
+
+
+    
+
+  </div>
+</section>
+
+
+<section class="contact-section" id="reserva">
+<h1>Reservá tu lugar</h1>
+
+<h3>Para consultas o clases escribinos a:</h3>
+<p>Email: correo@ejemplo.com</p>
+<p>WhatsApp: +54 9 11 0000 0000</p>
+</section>
+
+
+<!--------------------------3d section - clases------------------------>
+
+
+    <!---------------------Footer------------->
+
+    <footer>
+        <p>© Espacio Hebra | Sitio desarrollado por Melina Coria</p>
+    </footer>
+
+
+    <!---------JavaScrip for toggle menu------>
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
