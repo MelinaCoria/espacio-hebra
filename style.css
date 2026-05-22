@@ -106,7 +106,7 @@ nav a:hover .brand {
 .hero {
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient( rgba(94, 87, 76, 0.555)), url(images/fondo4.jpg);
+    background-image:linear-gradient( rgba(94, 87, 76, 0.555)), url(fondo4.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -456,7 +456,7 @@ margin: 10px 0;
 }
 
 .clases-section {
-  background-image: url(images/pattern.png);
+  background-image: url(pattern.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
